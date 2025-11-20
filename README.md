@@ -1,8 +1,3 @@
-Voici un **énoncé prêt à l’emploi**, structuré, clair et 100% adapté à tes étudiants de 1ère année.
-Tu peux leur donner **tel quel**, sans modification.
-Il respecte ta contrainte : **interdiction totale d’écrire du CSS** (tout doit passer par Bootstrap ou un thème Bootswatch).
-
----
 
 # 🧪 **TP Bootstrap – Créer une page d’accueil moderne sans écrire de CSS**
 
