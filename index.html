@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech&Co — Service Informatique</title>
+
+    <!-- CSS Bootstrap ou thème Bootswatch -->
+    <link id="themeStylesheet" rel="stylesheet"
+          href="https://bootswatch.com/5/lumen/bootstrap.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Tech&Co — Service Informatique</a>
+
+        <!-- Bouton burger -->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Basculer la navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Liens repliés sur mobile -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="ms-lg-3 my-2 my-lg-0">
+                <label for="themeSelector" class="form-label text-white-50 small mb-1 d-none d-lg-block">Thème</label>
+                <select id="themeSelector" class="form-select form-select-sm" aria-label="Sélecteur de thème Bootswatch">
+                    <option value="cerulean">Cerulean</option>
+                    <option value="cosmo">Cosmo</option>
+                    <option value="cyborg">Cyborg</option>
+                    <option value="darkly">Darkly</option>
+                    <option value="flatly">Flatly</option>
+                    <option value="journal">Journal</option>
+                    <option value="litera">Litera</option>
+                    <option value="lumen">Lumen</option>
+                    <option value="lux">Lux</option>
+                    <option value="materia">Materia</option>
+                    <option value="minty">Minty</option>
+                    <option value="morph">Morph</option>
+                    <option value="pulse">Pulse</option>
+                    <option value="quartz">Quartz</option>
+                    <option value="sandstone">Sandstone</option>
+                    <option value="simplex">Simplex</option>
+                    <option value="sketchy">Sketchy</option>
+                    <option value="slate">Slate</option>
+                    <option value="solar">Solar</option>
+                    <option value="spacelab">Spacelab</option>
+                    <option value="superhero">Superhero</option>
+                    <option value="united">United</option>
+                    <option value="vapor">Vapor</option>
+                    <option value="yeti">Yeti</option>
+                    <option value="zephyr">Zephyr</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO AVEC IMAGE DE FOND -->
+<header class="bg-dark text-white">
+    <div class="container-fluid p-0">
+        <div class="position-relative">
+
+            <!-- Image de fond en pleine largeur -->
+            <img
+                    src="https://www.ece.fr/wp-content/uploads/sites/2/2024/04/html-css-collage-concept-with-person.jpg?w=1480&h=800&crop=1"
+                    alt="Collage HTML CSS – Service informatique"
+                    class="img-fluid w-100"
+            >
+
+            <!-- Overlay sombre pour le contraste du texte -->
+            <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-75 d-flex align-items-center">
+                <div class="container text-center py-5">
+                    <h1 class="display-4 fw-bold">
+                        Support informatique du lycée Tech&Co
+                    </h1>
+                    <p class="lead mb-4">
+                        Assistance rapide et professionnelle pour tous vos besoins numériques :
+                        postes de travail, comptes, réseau et Wi‑Fi.
+                    </p>
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        Ouvrir un ticket
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<!-- EXEMPLE DE SECTIONS EXISTANTES (à adapter si besoin) -->
+<main class="mt-5">
+    <section id="services" class="container py-5">
+        <h2 class="text-center mb-4">Nos services</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Assistance aux postes</h5>
+                        <p class="card-text">
+                            Support pour les PC, imprimantes, périphériques et logiciels du lycée.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestion des comptes</h5>
+                        <p class="card-text">
+                            Création, modification et récupération des comptes ENT et messagerie.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Support réseau & Wi‑Fi</h5>
+                        <p class="card-text">
+                            Aide en cas de problème de connexion, accès Wi‑Fi et ressources réseau.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== INFOS PRATIQUES ===================== -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row gy-4 align-items-start">
+                <!-- Horaires & lieu -->
+                <div class="col-md-6">
+                    <h2 class="fw-bold mb-3">Infos pratiques</h2>
+
+                    <h5 class="mb-2">Horaires d’ouverture</h5>
+                    <ul class="list-unstyled mb-3">
+                        <li><strong>Lundi au vendredi :</strong> 8h30 – 12h00 / 13h30 – 17h30</li>
+                        <li><strong>Samedi :</strong> 8h30 – 12h00</li>
+                    </ul>
+
+                    <h5 class="mb-2">Lieu</h5>
+                    <p class="mb-3">
+                        Bâtiment B — Rez‑de‑chaussée, bureau B015<br>
+                        Lycée Tech&Co, 123 avenue du Numérique, 75000 Ville‑Tech
+                    </p>
+
+                    <h5 class="mb-2">Procédure de demande</h5>
+                    <ol class="mb-0">
+                        <li>Remplir le formulaire de contact en ligne.</li>
+                        <li>Attendre la confirmation par e‑mail avec votre numéro de ticket.</li>
+                        <li>Suivre l’avancement via le portail ENT.</li>
+                    </ol>
+                </div>
+
+                <!-- Bloc contact / ticket -->
+                <div class="col-md-6" id="contact">
+                    <div class="card shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">Nous contacter</h5>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="inputNom" class="form-label">Nom / Prénom</label>
+                                    <input type="text" class="form-control" id="inputNom"
+                                           placeholder="Votre nom complet">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputEmail" class="form-label">Adresse e‑mail</label>
+                                    <input type="email" class="form-control" id="inputEmail"
+                                           placeholder="vous@exemple.fr">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="selectProfil" class="form-label">Profil</label>
+                                    <select id="selectProfil" class="form-select">
+                                        <option value="" selected disabled>Choisissez votre profil</option>
+                                        <option>Élève</option>
+                                        <option>Enseignant</option>
+                                        <option>Personnel administratif</option>
+                                        <option>Autre</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="selectType" class="form-label">Type de demande</label>
+                                    <select id="selectType" class="form-select">
+                                        <option>Problème de connexion</option>
+                                        <option>Panne de poste ou matériel</option>
+                                        <option>Demande de logiciel</option>
+                                        <option>Autre demande</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="inputMessage" class="form-label">Description</label>
+                                    <textarea class="form-control" id="inputMessage"
+                                              rows="4"
+                                              placeholder="Décrivez votre problème ou votre demande"></textarea>
+                                </div>
+
+                                <div class="d-grid d-md-flex justify-content-md-end">
+                                    <button type="submit" class="btn btn-primary">
+                                        Envoyer la demande
+                                    </button>
+                                </div>
+                            </form>
+
+                            <hr class="my-4">
+
+                            <p class="mb-1">
+                                <strong>Téléphone :</strong> 01 23 45 67 89
+                            </p>
+                            <p class="mb-0">
+                                <strong>E‑mail :</strong> support-informatique@lycee-techandco.fr
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- JS Bootstrap (indispensable pour le burger) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Sélecteur de thème Bootswatch -->
+<script>
+    (function () {
+        const themeLink = document.getElementById('themeStylesheet');
+        const selector = document.getElementById('themeSelector');
+        if (!themeLink || !selector) return;
+
+        const STORAGE_KEY = 'bootswatchTheme';
+
+        function getCurrentSlugFromHref(href) {
+            // Ex: https://bootswatch.com/5/lumen/bootstrap.min.css
+            const match = href.match(/bootswatch\.com\/5\/([^/]+)\/bootstrap\.min\.css/i);
+            return match ? match[1] : null;
+        }
+
+        function buildHref(slug) {
+            return `https://bootswatch.com/5/${slug}/bootstrap.min.css`;
+        }
+
+        function applyTheme(slug) {
+            if (!slug) return;
+            // Applique immédiatement le thème
+            const newHref = buildHref(slug);
+            if (themeLink.getAttribute('href') !== newHref) {
+                themeLink.setAttribute('href', newHref);
+            }
+            // Sauvegarde
+            try { localStorage.setItem(STORAGE_KEY, slug); } catch (_) {}
+            // Mets à jour le sélecteur si besoin
+            if (selector.value !== slug) {
+                selector.value = slug;
+            }
+        }
+
+        // Initialisation: valeur sauvegardée > valeur actuelle du lien > défaut 'lumen'
+        let initial = null;
+        try { initial = localStorage.getItem(STORAGE_KEY); } catch (_) {}
+        if (!initial) {
+            initial = getCurrentSlugFromHref(themeLink.getAttribute('href')) || 'lumen';
+        }
+
+        // Positionne le select (si l'option existe), puis applique
+        if ([...selector.options].some(o => o.value === initial)) {
+            selector.value = initial;
+        }
+        applyTheme(initial);
+
+        // Écoute les changements utilisateur
+        selector.addEventListener('change', function (e) {
+            applyTheme(e.target.value);
+        });
+    })();
+</script>
+</body>
+</html>
